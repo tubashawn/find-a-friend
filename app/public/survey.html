@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>THE SURVEY</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- <link rel="stylesheet" type="text/css" media="screen" href="main.css" /> -->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B"
+        crossorigin="anonymous">
+</head>
+
+<body>
+    <header>
+        <h1>Survey questions</h1>
+    </header>
+    <!-- insert separator -->
+    <form class="aboutYou">
+        <div class="form-group">
+            <h2>About You</h2>
+            <p>Name (required)</p>
+            <input type="text" class="form-control" id="enterName" aria-describedby="textHelp" placeholder="Enter your name here">
+            <br>
+            <p>Link to photo image (required)</p>
+            <input type="text" class="form-control" id="enterPhoto" aria-describedby="photoLink" placeholder="Enter a link to your photo">
+        </div>
+    </form>
+    <!-- insert separator -->
+
+    <section class="questions">
+        <div id="question1">
+            <h2>Question 1</h2>
+            <p id="q1">Do you like long walks on the beach?</p>
+            <button type="button" id="btn1" class="btn btn-success dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Rating</button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <div class="dropdown-item">5 (Ah, yeah!)</div>
+                <div class="dropdown-item">4 (agree)</div>
+                <div class="dropdown-item">3 (meh)</div>
+                <div class="dropdown-item">2 (disagree)</div>
+                <div class="dropdown-item">1 (Are you kidding me?)</div>
+            </div>
+        </div>
+        <div id="question2">
+            <h2>Question 2</h2>
+            <p id="q2">Do you like pina coladas?</p>
+            <button type="button" id="btn2" class="btn btn-success dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Rating</button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <div class="dropdown-item">5 (Ah, yeah!)</div>
+                <div class="dropdown-item">4 (agree)</div>
+                <div class="dropdown-item">3 (meh)</div>
+                <div class="dropdown-item">2 (disagree)</div>
+                <div class="dropdown-item">1 (Are you kidding me?)</div>
+            </div>
+        </div>
+        <div id="question3">
+            <h2>Question 3</h2>
+            <p id="q3">Do you like getting caught in the rain?</p>
+            <button type="button" id="btn3" class="btn btn-success dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Rating</button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <div class="dropdown-item">5 (Ah, yeah!)</div>
+                <div class="dropdown-item">4 (agree)</div>
+                <div class="dropdown-item">3 (meh)</div>
+                <div class="dropdown-item">2 (disagree)</div>
+                <div class="dropdown-item">1 (Are you kidding me?)</div>
+            </div>
+        </div>
+        <div id="question4">
+            <h2>Question 4</h2>
+            <p id="q4">Are you into yoga?</p>
+            <button type="button" id="btn4" class="btn btn-success dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Rating</button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <div class="dropdown-item">5 (Ah, yeah!)</div>
+                <div class="dropdown-item">4 (agree)</div>
+                <div class="dropdown-item">3 (meh)</div>
+                <div class="dropdown-item">2 (disagree)</div>
+                <div class="dropdown-item">1 (Are you kidding me?)</div>
+            </div>
+        </div>
+        <div id="question5">
+            <h2>Question 5</h2>
+            <p id="q5">Do you have half a brain?</p>
+            <button type="button" id="btn5" class="btn btn-success dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Rating</button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <div class="dropdown-item">5 (Ah, yeah!)</div>
+                <div class="dropdown-item">4 (agree)</div>
+                <div class="dropdown-item">3 (meh)</div>
+                <div class="dropdown-item">2 (disagree)</div>
+                <div class="dropdown-item">1 (Are you kidding me?)</div>
+            </div>
+        </div>
+        <div id="question6">
+            <h2>Question 6</h2>
+            <p id="q6">Do you like making love at midnight in the dunes of the cape?</p>
+            <button type="button" id="btn6" class="btn btn-success dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Rating</button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <div class="dropdown-item">5 (Ah, yeah!)</div>
+                <div class="dropdown-item">4 (agree)</div>
+                <div class="dropdown-item">3 (meh)</div>
+                <div class="dropdown-item">2 (disagree)</div>
+                <div class="dropdown-item">1 (Are you kidding me?)</div>
+            </div>
+        </div>
+        <div id="question7">
+            <h2>Question 7</h2>
+            <p id="q7">Are you into health food?</p>
+            <button type="button" id="btn7" class="btn btn-success dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Rating</button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <div class="dropdown-item">5 (Ah, yeah!)</div>
+                <div class="dropdown-item">4 (agree)</div>
+                <div class="dropdown-item">3 (meh)</div>
+                <div class="dropdown-item">2 (disagree)</div>
+                <div class="dropdown-item">1 (Are you kidding me?)</div>
+            </div>
+        </div>
+        <div id="question8">
+            <h2>Question 8</h2>
+            <p id="q8">Are you into champagne?</p>
+            <button type="button" id="btn8" class="btn btn-success dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Rating</button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <div class="dropdown-item">5 (Ah, yeah!)</div>
+                <div class="dropdown-item">4 (agree)</div>
+                <div class="dropdown-item">3 (meh)</div>
+                <div class="dropdown-item">2 (disagree)</div>
+                <div class="dropdown-item">1 (Are you kidding me?)</div>
+            </div>
+        </div>
+        <div id="question9">
+            <h2>Question 9</h2>
+            <p id="q9">Do you like the feel of the ocean?</p>
+            <button type="button" id="btn9" class="btn btn-success dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Rating</button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <div class="dropdown-item">5 (Ah, yeah!)</div>
+                <div class="dropdown-item">4 (agree)</div>
+                <div class="dropdown-item">3 (meh)</div>
+                <div class="dropdown-item">2 (disagree)</div>
+                <div class="dropdown-item">1 (Are you kidding me?)</div>
+            </div>
+        </div>
+        <div id="question10">
+            <h2>Question 10</h2>
+            <p id="q10">Do enjoy the sweet sounds of a tuba serenade?</p>
+            <button type="button" id="btn10" class="btn btn-success dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Rating</button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <div class="dropdown-item">5 (Ah, yeah!)</div>
+                <div class="dropdown-item">4 (agree)</div>
+                <div class="dropdown-item">3 (meh)</div>
+                <div class="dropdown-item">2 (disagree)</div>
+                <div class="dropdown-item">1 (Are you kidding me?)</div>
+            </div>
+        </div>
+
+    </section>
+    <section class="row">
+        <a href="/api/friends">API Friends List</a>
+        <div> | </div>
+        <a href="#">GitHub repo</a>
+    </section>
+    <script src="../data/friends.js"></script>
+</body>
+
+</html>
